@@ -1,0 +1,41 @@
+table {
+  background-color: rgb(153, 240, 240);
+  margin: 15px auto;
+  border: 1px solid black;
+  width: 20%;
+  box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.del-btn {
+  float: right;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #ff0000;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  cursor: pointer;
+}
+
+tr:hover .del-btn {
+  opacity: 1;
+}
+
+.pending-btn {
+  float: right;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #0000ff;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  cursor: pointer;
+}
+
+tr:hover .pending-btn {
+  opacity: 1;
+}
